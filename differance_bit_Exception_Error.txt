@@ -1,0 +1,36 @@
+Object
+|
+|-------Throwable
+|	|-------Exception
+|	|	|-------CompileTime Exception
+|	|	|	|-------ClassNotFoundException
+|       |       |       |-------NoSuchMethodException
+|       |       |       |-------IoException
+|       |       |       |	|-------ECFException
+|       |       |       |	|-------FileNotFoundException
+|       |       |       |	|-------InteruptedIOException
+|       |       |       |-------SQLException
+|       |       |       |-------RemoteException
+|       |       |       |-------InteruptedException
+|       |       |       |
+|	|	|-------Runtime Exception
+|       |       |       |-------ArithmaticException
+|       |       |       |-------ClassCastException
+|       |       |       |-------NullPointerException
+|       |       |       |-------IndexOutOfBoundException
+|       |       |       |	|-------ArrayIndexOutOfBondException
+|       |       |       |	|-------StringIndexOutOfBoundException
+|       |       |       |-------IllegalArgumentException
+|       |       |       |	|-------NumberFormatException
+|	|	|
+|	|-------Error
+|	|	|-------RuntimeException(Unchecked Exception)
+|	|	|	|-------VirtualMachineError
+|       |       |       |	|-------StackOverFlowError
+|       |       |       |	|-------OutOfMemoryError
+|       |       |       |-------LinkageError
+|       |       |       |	|-------VerifyError
+|       |       |       |	|-------ClassFormatError
+|       |       |       |	|-------NoClassDefFoundError
+|       |       |       |-------AssertionError
+|	|	|
