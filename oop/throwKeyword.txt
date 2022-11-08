@@ -1,0 +1,12 @@
+1. keywords working :
+
+	try: In try block we write statements that can throw exception i.e. it mentains risky code 
+	catch: It mentains exception handling code i.e. alternative way for exception
+	finally: It mentains clean up code i.e. closing the resources 
+	throw: It creates exception object manually (by programmer) and handover to JVM
+
+2. We can throw either checked or unchecked exception but throw is best for customized exception
+
+3. We can only throw class that comes in throwable child class
+
+4. We cannot write any statement after throw, otherwise it will provide unrechable statement error.

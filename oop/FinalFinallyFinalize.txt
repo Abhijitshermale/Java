@@ -1,0 +1,50 @@
+Final:-
+	1) Keyword
+	2) Use with
+		-variable (vallue become constant/fix ) 
+		-Method (Does not override)
+		-class (does not inherit )
+	3) Syntax :-
+		-final int a=10;
+		-final void show()
+		 {
+		 }
+		-final class Test
+		 {
+		 }
+Finally:-
+	1) Block
+	2) Use with either try or try-catch block
+	3) Syntax:-
+		try
+		{
+			---
+		}
+		finally
+		{
+			---
+		}
+
+		or
+
+		try
+		{
+			---
+		}
+		catch(---)
+		{
+			---
+		}
+		finally
+		{
+			---
+		}
+
+Finalize:-
+	1) Method
+	2) Method is override for an object
+	3)Syntax :-
+		protected void finalize() throw throwable
+		{
+			//cleanup code
+		}
