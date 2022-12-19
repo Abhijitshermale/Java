@@ -1,0 +1,34 @@
+import java.sql.*;
+
+public class InsertJDBC
+{
+	public static void main(String args[])
+	{
+		try
+		{
+			Class.forName("com.mysql.jdbc.Driver");
+
+			String url = "jdbc:mysql://localhost:3306/manage_student";
+			String usr = "root";
+			String pass = "abhi";
+
+			Connection con = DriverManager.getConnection(url, usr, pass);
+
+			String q = "insert into table1(tName, tCity) values (?, ?)";
+
+			PreparedStatement pstmt = con.prepareStatement(q);
+				
+				pstmt.setString(1, "Abhijit");
+				pstmt.setString(2, "Sangamner");
+
+			pstmt.executeUpdate();
+
+			System.out.println("Inserted .............");
+
+			con.close();
+		}catch(Exception e)
+			{
+				e.printStackTrace();
+			}
+	}
+}
